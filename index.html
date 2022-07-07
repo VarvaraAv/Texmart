@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tehnomart</title>
+  <meta name="description" content="">
+  <link rel="manifest" href="#">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<header class="page-header">
+  <div class="container">
+    <nav class="navigation">
+      <div class="nav-info">
+        <h1 class="title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+        <a class="link address-link"
+           href="https://www.google.ru/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/@59.9387191,30.3185627,17z/data=!3m1!4b1!4m5!3m4!1s0x4696310fca145cc1:0x42b32648d8238007!8m2!3d59.9387165!4d30.3230474">г.
+          Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</a>
+        <a class="link contact-phone" href="tel:+7(812)5550555">
+          <svg class="header-phone" focusable="false" aria-hidden="true" width="16" height="17" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+            
+          </svg>
+          +7 (812) 555-05-55</a>
+      </div>
+      <div class="nav-login">
+        <a class="page-logo page-header-logo">
+          <span class="visually-hidden">Логотип "Техномарт"</span>
+          <svg class="logo" focusable="false" aria-hidden="true" width="111" height="22" viewBox="0 0 111 22"
+               fill="none" xmlns="http://www.w3.org/2000/svg">
+          </svg>
+
+        </a>
+
+        <div class="nav-wrapper">
+          <div class="nav-user-item search-item">
+            <a class="link nav-user-link">
+              <svg class="search-icon" focusable="false" aria-hidden="true" width="20" height="21" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+              </svg>
+              Поиск:
+            </a>
+            <div class="search-login">
+              <label class="visually-hidden search-label" for="search-field"> Поиск</label>
+              <input class="field search-input" id="search-field" type="text" placeholder="Поиск по сайту">
+              <button class="close-button" type="reset" aria-label="Очистить поле">
+
+                <svg class="search-button" focusable="false" aria-hidden="true" width="12" height="13"
+                     viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                </svg>
+              </button>
+            </div>
+          </div>
+   
+          
+
+          <div class="nav-profile-item not-authorized-wrapper">
+            <a class="link nav-profile-link" href="#">
+              <svg class="nav-profile-icon button-enter" focusable="false" aria-hidden="true" width="16" height="17"
+                   fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M7 14.39H2v-12h5v-2H0v16h7v-2Zm4.7-1.71L8.47 9.44H16v-2H8.46l3.25-3.25-1.42-1.41-4.95 4.95-.7.7.7.71 4.95 4.95 1.42-1.41Z"/>
+              </svg>
+              Войти</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="nav-main">
+        <ul class="list nav-information-list">
+          <li class="nav-information-item">
+            <a class="nav-information-link main-information-link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Компания
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Каталог
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Новости
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Спецпредложения
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Доставка
+            </a>
+          </li>
+          <li class="nav-information-item">
+            <a class="nav-information-link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+
+        <ul class="list nav-menu-list">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="#">
+              <svg class="nav-menu-icon" focusable="false" aria-hidden="true" width="14" height="19" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="m.8 18.39 6.3-3.06 6.3 3.06V2.13c0-.96-.8-1.74-1.8-1.74h-9c-1 0-1.8.78-1.8 1.74V18.4Zm6.3-5.01-4.5 2.18V2.13h9v13.43l-4.5-2.18Z"/>
+              </svg>
+              <span class="visually-hidden">Закладки</span>
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="#">
+              <span class="visually-hidden">Корзина</span>
+              <svg class="nav-menu-icon" focusable="false" aria-hidden="true" width="18" height="19" viewBox="0 0 18 19"
+                   fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="list authorised-list">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="#">
+              <span class="visually-hidden">Закладки</span>
+              <svg class="nav-menu-icon" focusable="false" aria-hidden="true" width="14" height="19" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="m.8 18.39 6.3-3.06 6.3 3.06V2.13c0-.96-.8-1.74-1.8-1.74h-9c-1 0-1.8.78-1.8 1.74V18.4Zm6.3-5.01-4.5 2.18V2.13h9v13.43l-4.5-2.18Z"/>
+              </svg>
+              <span class="items-counter">12</span>
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="#">
+              <span class="visually-hidden">Корзина</span>
+              <svg class="nav-menu-icon" focusable="false" aria-hidden="true" width="18" height="19" viewBox="0 0 18 19"
+                   fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+              </svg>
+              <span class="items-counter">2</span>
+            </a>
+          </li>
+        </ul>
+
+        <a class="nav-menu-link nav-menu-button" href="#">
+          Оформить заказ
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="main-page">
+  <div class="container">
+    <section class="promo">
+      <ul class="list promo-list">
+        <li class="promo-item first-item">
+          <h2 class="second-title promo-title">Материалы</h2>
+          <a class="promo-link" href="#">
+            <svg class="promo-button-icon" focusable="false" aria-hidden="true" width="21" height="21" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="m8.83 10.7 7.3 7.3-1.42 1.41L6 10.71 14.7 2l1.42 1.41-7.3 7.3Z"/>
+            </svg>
+            На любой вкус</a>
+        </li>
+        <li class="promo-item second-item">
+          <h2 class="second-title promo-title">инструмент</h2>
+          <a class="promo-link" href="#">
+            <svg class="promo-button-icon" focusable="false" aria-hidden="true" width="21" height="21" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="m8.83 10.7 7.3 7.3-1.42 1.41L6 10.71 14.7 2l1.42 1.41-7.3 7.3Z"/>
+            </svg>
+            На все случаи</a>
+        </li>
+        <li class="promo-item third-item">
+          <h2 class="second-title promo-title">техника</h2>
+          <a class="promo-link" href="#">
+            <svg class="promo-button-icon" focusable="false" aria-hidden="true" width="21" height="21" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="m8.83 10.7 7.3 7.3-1.42 1.41L6 10.71 14.7 2l1.42 1.41-7.3 7.3Z"/>
+            </svg>
+            для стройки</a>
+        </li>
+        <li class="promo-item fourth-item">
+          <h2 class="second-title promo-title">Скидки 50%</h2>
+          <a class="promo-link" href="#">
+            <svg class="promo-button-icon" focusable="false" aria-hidden="true" width="21" height="21" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="m8.83 10.7 7.3 7.3-1.42 1.41L6 10.71 14.7 2l1.42 1.41-7.3 7.3Z"/>
+            </svg>
+            На 350 товаров</a>
+        </li>
+        <li class="promo-item fifth-item">
+          <h2 class="second-title promo-title">Доставка</h2>
+          <a class="promo-link" href="#">
+            <svg class="promo-button-icon" focusable="false" aria-hidden="true" width="21" height="21" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="m8.83 10.7 7.3 7.3-1.42 1.41L6 10.71 14.7 2l1.42 1.41-7.3 7.3Z"/>
+            </svg>
+            бесплатно</a>
+        </li>
+        <li class=" slider-item slide-active">
+          <h2 class="inner-title slider-title">Дрели</h2>
+          <p class="text slider-text">Соседям на радость!</p>
+        </li>
+        <li class="slider-item slide-inner">
+          <h2 class="inner-title slider-title">Перфораторы </h2>
+          <p class="text slider-text">Настоящие мужские игрушки</p>
+        </li>
+      </ul>
+     
+
+      <ul class="list slider-bullets-list">
+        <li class="slider-bullets-item">
+          <button class="slider-bullet" type="button" aria-label="текущий слайд">
+            <svg class="slider-bullet-active" focusable="false" aria-hidden="true" width="8" height="8" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4"/>
+            </svg>
+          </button>
+        </li>
+        <li class="slider-bullets-item">
+          <button class="slider-bullet" type="button" aria-label="следующий слайд">
+            <svg class="slider-bullet-icon" focusable="false" aria-hidden="true" width="8" height="8" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4"/>
+            </svg>
+          </button>
+        </li>
+        <li class="slider-bullets-item">
+          <button class="slider-bullet" type="button" aria-label="следующий слайд">
+            <svg class="slider-bullet-icon" focusable="false" aria-hidden="true" width="8" height="8" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class="breadcrumbs">
+      <h2 class="inner-title breadcrumbs-title">Перфораторы</h2>
+    </section>
+    <div class="catalog-wrapper">
+      <section class="catalog-filter">
+        <h2 class="visually-hidden">Фильтр сортировки товаров</h2>
+        <form class="filter-form" action="#" method="get">
+          <fieldset class="filter-inner-group range-filter-group">
+            <span class="filter-inner-title">Цена:</span>
+            <div class="range">
+              <div class="range-scale">
+                <div class="range-bar" style="left: 0; width: 118px">
+                  <button class="range-toggle toggle-min" type="button">
+                    <span class="visually-hidden">Изменить минимальную цену.</span>
+                  </button>
+                  <button class="range-toggle toggle-max" type="button">
+                    <span class="visually-hidden">Изменить максимальную цену.</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <label class="visually-hidden" for="range-min-price">Минимальная цена</label>
+            <input class="range-input" type="number" value="0" name="min-price" id="range-min-price"
+                   style="width: 95px">
+            <span class="text label-text">–</span>
+            <label class="visually-hidden" for="range-max-price">Максимальная цена</label>
+            <input class="range-input" type="number" value="30000" name="max-price" id="range-max-price"
+                   style="width: 95px">
+          </fieldset>
+          <fieldset class="filter-inner-group">
+            <legend class="filter-inner-title">Производители</legend>
+            <ul class="list filter-inner-list">
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden checkbox-button" type="checkbox" name="bosch" value="bosch" checked>
+                  <span class="control-mark"></span>
+                  <span class="input-label">Bosch</span>
+                </label>
+              </li>
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden checkbox-button" type="checkbox" name="interskol" value="interskol">
+                  <span class="control-mark"></span>
+                  <span class="input-label">ИНТЕРСКОЛ</span>
+                </label>
+              </li>
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden checkbox-button" type="checkbox" name="makita" value="makita" checked>
+                  <span class="control-mark"></span>
+                  <span class="input-label">MAKIta</span>
+                </label>
+              </li>
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden checkbox-button" type="checkbox" name="dewalt" value="dewalt">
+                  <span class="control-mark"></span>
+                  <span class="input-label">Dewalt</span>
+                </label>
+              </li>
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden checkbox-button" type="checkbox" name="hitachi" value="hitachi">
+                  <span class="control-mark"></span>
+                  <span class="input-label">Hitachi</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-inner-group">
+            <legend class="filter-inner-title">Питание</legend>
+            <ul class="list filter-inner-list">
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden radio-button" type="radio" name="radio-button" id="accumulator"
+                         value="accumulator" checked>
+                  <span class="control-mark first-radio-mark"></span>
+                  <span class="input-label">Аккумуляторные</span>
+                </label>
+              </li>
+              <li class="filter-inner-item">
+                <label class="control">
+                  <input class="visually-hidden radio-button" type="radio" name="radio-button" id="mains-powered"
+                         value="mains-powered">
+                  <span class="control-mark first-radio-mark"></span>
+                  <span class="input-label">Сетевые</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+        <button class="button-show" type="submit">Показать</button>
+      </section>
+      <section class="catalog-page">
+        <h2 class="visually-hidden">Каталог</h2>
+        <form class="sorting-form">
+          <fieldset class="sorting-inner-title">
+            <select class="filter-alignment sorting-container" aria-label="Сортировка">
+              <option class="sorting-name" selected value="sorting">Сортировать</option>
+              <option class="sorting-name" value="popular">Сначала популярные</option>
+              <option class="sorting-name" value="cheap">По возрастанию цены</option>
+              <option class="sorting-name" value="expensive">По убыванию цены</option>
+            </select>
+            
+          </fieldset>
+        </form>
+        <ul class="list catalog-list">
+          <li class="catalog-item catalog-item-new">
+            <a class="catalog-link">
+              <img src="./images/bosch_prof.jpg" width="216" height="180" alt="Товар-1"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 3000</p>
+            <p class="text old-price">22500 ₽</p>
+            <button class="button price-button">
+              15500 ₽
+            </button>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-link">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-2"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 6000</p>
+            <p class="text old-price">30500 ₽</p>
+            <button class="button price-button">
+              25500 ₽
+            </button>
+          </li>
+          <li class="catalog-item catalog-item-new">
+            <a class="catalog-link catalog-link-old">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-3"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 2000</p>
+            <button class="button price-button">
+              25500 ₽
+            </button>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-link">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-4"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 3000</p>
+            <p class="text old-price">22500 ₽</p>
+            <button class="button price-button">
+              15500 ₽
+            </button>
+          </li>
+          <li class="catalog-item catalog-item-new">
+            <a class="catalog-link">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-5"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 6000</p>
+            <p class="text old-price">30500 ₽</p>
+            <button class="button price-button">
+              25500 ₽
+            </button>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-link catalog-link-old">
+              <img src="./images/bosch_3x4.jpg" width="216" height="180" alt="Товар-6"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 2000</p>
+            <button class="button price-button">
+              25500 ₽
+            </button>
+          </li>
+          <li class="catalog-item catalog-item-new">
+            <a class="catalog-link">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-7"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 3000</p>
+            <p class="text old-price">22500 ₽</p>
+            <button class="button price-button">
+              15500 ₽
+            </button>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-link">
+              <img src="./images/bosch_prof.jpg" width="216" height="180" alt="Товар-8"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 6000</p>
+            <p class="text old-price">30500 ₽</p>
+            <button class="button price-button">
+              25500 ₽
+            </button>
+          </li>
+          <li class="catalog-item catalog-item-new">
+            <a class="catalog-link catalog-link-old">
+              <img src="./images/bosch_det.jpg" width="216" height="180" alt="Товар-9"></a>
+            <div class="catalog-button-wrapper">
+              <button class="button button-take" type="button">
+                <svg class="catalog-icon" focusable="false" aria-hidden="true" width="18" height="19"
+                     viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                </svg>
+                Купить
+              </button>
+              <button class="button button-subscribe" type="button">В закладки</button>
+            </div>
+            <p class="text catalog-title">Перфоратор BOSСH<br>BFG 3000</p>
+            <button class="button price-button" type="button">25500 ₽</button>
+          </li>
+        </ul>
+        <div class="pagination">
+          <h2 class="visually-hidden">Пагинация</h2>
+          <ul class="list pagination-list">
+            <li class="pagination-item">
+              <a class="pagination-button" href="#">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-button" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-button" href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-button" href="#">4</a>
+            </li>
+          </ul>
+          <a class="button-more" href="#">показать еще</a>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section class="services">
+    <div class="container">
+      <h2 class="inner-title services-title">Сервисы</h2>
+      <p class="text services-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо
+        всех сил, чтобы сделать ваши покупки приятными.</p>
+      <ul class="list services-list">
+        <li class="services-item delivery-item">
+          <h2 class="second-title service-title">Доставка</h2>
+          <p class="text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
+            неплохо заработаем, поднимая его на ваш этаж!</p>
+        </li>
+        <li class="services-item warranty-item">
+          <h2 class="second-title service-title">Гарантия</h2>
+          <p class="text">Вы в течение года можете написать нам письмо с просьбой вернуть сумму оплаты, и мы полностью
+            возместим вам стоимость товара</p>
+        </li>
+        <li class="services-item credit-item">
+          <h2 class="second-title service-title">Кредит</h2>
+          <p class="text">Вы можете оформить кредит прямо на сайте! Для этого нужно выбрать понравившийся товар и
+            заполнить поля и ждать результата одобрения кредита. Все как в банке, только проще!</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <ul class="list contacts-list">
+        <li class="contacts-item">
+          <h2 class="inner-title contact-title">Компания «Техномарт»</h2>
+          <p class="text contact-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+            строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+          <p class="text delivery-text">
+            Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными
+            компаниями:</p>
+          <a class="contacts-button" href="#">О компании</a>
+        </li>
+        <li class="contacts-item">
+          <h2 class="inner-title contact-title">Контакты</h2>
+          <p class="text map-text">Вы можете забрать товар сами, заехав в наш офис:</p>
+          <a class="map"> <img src="images/map.jpg" width="500" height="347" alt="Карта проезда">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-info">
+        <a class="page-logo page-footer-logo" href="#">
+          <span class="visually-hidden">Логотип Техномарт</span>
+          <svg class="logo" focusable="false" aria-hidden="true" width="111" height="22" viewBox="0 0 111 22"
+               fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M106.23 3.27V20.9h-2.16V3.27h-3.84V1.32h9.83v1.95h-3.83Zm-8.31 10.37c-.38.55-.85.94-1.42 1.17-.56.24-1.24.35-2.02.35a10.5 10.5 0 0 1-2.4-.28v6.02h-2.16V1.6a9.9 9.9 0 0 1 1.84-.44c.61-.08 1.28-.12 2-.12.96 0 1.77.11 2.44.35.68.23 1.22.62 1.63 1.16.42.54.72 1.26.92 2.15.19.9.28 2 .28 3.33 0 1.36-.09 2.5-.27 3.41a5.98 5.98 0 0 1-.84 2.2ZM96.7 5.5c-.12-.67-.31-1.2-.57-1.6-.25-.38-.58-.66-.97-.82-.39-.16-.86-.24-1.4-.24h-1.68V13.2h1.68c.54 0 1.01-.07 1.4-.23.4-.16.72-.44.97-.83.26-.39.45-.92.57-1.6.12-.66.18-1.5.18-2.51 0-1-.06-1.85-.18-2.52ZM84.53 15.86h-4.8l-1.08 5.04H76.5l4.08-19.58h3.12l4.07 19.58h-2.15l-1.08-5.04ZM82.18 4.11h-.1l-1.99 9.8h4.08l-2-9.8ZM71.82 6.35h-.12l-3.48 12.03h-2.16L62.6 6.35h-.12l-.72 14.55h-2.16l.96-19.58h2.64l3.9 13.42h.1L71.1 1.32h2.64l.96 19.58h-2.16l-.72-14.55ZM55.7 19.08a4 4 0 0 1-1.62 1.62c-.63.32-1.36.48-2.17.48-.82 0-1.54-.16-2.17-.48a4 4 0 0 1-1.62-1.62 9.48 9.48 0 0 1-1.02-3.1c-.23-1.29-.35-2.92-.35-4.87 0-1.96.12-3.59.35-4.88.23-1.3.57-2.33 1.02-3.1a4 4 0 0 1 1.62-1.62 4.77 4.77 0 0 1 2.17-.47c.81 0 1.54.15 2.17.47a4 4 0 0 1 1.62 1.62c.44.77.78 1.8 1.02 3.1.23 1.3.34 2.92.34 4.88 0 1.95-.11 3.58-.34 4.88a9.48 9.48 0 0 1-1.02 3.09ZM54.66 6.97A11.01 11.01 0 0 0 54 4.39a2.88 2.88 0 0 0-.96-1.31 2.03 2.03 0 0 0-1.12-.37c-.39 0-.76.13-1.13.37-.37.24-.69.68-.96 1.31-.27.64-.49 1.5-.66 2.58a27.88 27.88 0 0 0-.25 4.14c0 1.68.08 3.06.25 4.14.17 1.08.39 1.94.66 2.57.27.63.6 1.07.96 1.32.37.24.74.36 1.13.36.38 0 .76-.12 1.12-.36.37-.25.7-.69.96-1.32.28-.63.5-1.5.66-2.57.17-1.08.25-2.46.25-4.14 0-1.68-.08-3.06-.25-4.14Zm-12.93 4.98h-5.04v8.95h-2.16V1.32h2.16v8.67h5.04V1.32h2.15V20.9h-2.15v-8.95Zm-11.4 8.95-2.99-8.4-3 8.4H22.2l3.6-10.07-3.24-9.51h2.15l2.64 7.83 2.64-7.83h2.16l-3.24 9.5 3.6 10.08h-2.16ZM12.72 1.32h8.16v1.95h-6v6.44h5.28v1.96h-5.28v7.27h6v1.96H12.7V1.32ZM6.96 20.9H4.8V3.27H.97V1.32h9.83v1.95H6.96V20.9Z"
+                  fill="#fff"/>
+          </svg>
+        </a>
+        <p class="text footer-text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55</p>
+        <ul class="list social-list">
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Твиттер</span>
+              <span class="social-background twitter-background">
+          <svg class="social-icon twitter-icon" focusable="false" aria-hidden="true" width="22" height="18"
+               viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.8 2.8c-.8.36-1.8.7-2.7.8.92-.54 2.37-1.68 2.7-2.7-.86.5-2.4 1.04-3.41 1.23A4.31 4.31 0 0 0 15.16.9C12.7.9 11 2.97 11 5.4v1.8c-3.6 0-7.11-2.74-9.3-5.4-.38.65-.6 1.4-.6 2.21 0 1.64 1.51 3.3 2.7 4.09a8.35 8.35 0 0 1-2.7-.9v.05c0 2.13 1.5 3.58 3.52 3.98-.37.1-.82.47-2.55.47.56 1.74 3.4 2.66 5.33 2.7-1.52 1.18-4.22 1.8-6.3 1.8-.36 0-.55.02-.9-.02C2.16 17.42 4.9 18 7.4 18 15.55 18 20 11.77 20 5.97c0-.2 0-.83-.02-1.02.87-.61 1.23-1.26 1.82-2.14Z"
+              fill="#fff"/>
+          </svg>
+            </span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Вконтакте</span>
+              <span class="social-background vk-background">
+            <svg class="social-icon vk-icon" focusable="false" aria-hidden="true" width="18" height="11"
+                 viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path
+              d="M10.76 8.06c.64-.2 1.45 1.36 2.32 1.96.66.45 1.15.36 1.15.36l2.32-.04s1.21-.07.64-1.03c-.05-.08-.34-.72-1.73-2.02-1.45-1.36-1.25-1.14.5-3.5 1.06-1.43 1.49-2.3 1.36-2.68-.13-.36-.91-.27-.91-.27L13.8.86c-.26 0-.47.08-.57.34 0 0-.42 1.11-.96 2.06-1.17 1.99-1.63 2.1-1.82 1.97-.44-.29-.33-1.16-.33-1.77 0-1.94.29-2.74-.56-2.95A4.4 4.4 0 0 0 8.34.39C7.4.37 6.62.39 6.17.6c-.3.15-.52.47-.38.5.17.01.56.1.77.38.26.37.26 1.2.26 1.2s.15 2.27-.36 2.55c-.36.2-.84-.2-1.87-2.01-.53-.93-.93-1.95-.93-1.95s-.08-.19-.22-.3c-.16-.12-.4-.15-.4-.15L.57.84s-.38.01-.51.18c-.12.14-.01.44-.01.44s1.94 4.59 4.13 6.9c2.02 2.12 4.3 1.98 4.3 1.98h1.04s.31-.03.47-.2c.15-.17.15-.47.15-.47s-.02-1.4.62-1.61Z"
+              fill="#fff"/></svg>
+          </span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Одноклассники</span>
+              <span class="social-background ok-background">
+<svg class="social-icon ok-icon" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+     height="24" viewBox="0 0 24 24">
+  <path
+    d="M17.83 12.74c-.28-.57-1.07-1.05-2.12-.24-1.43 1.14-3.71 1.14-3.71 1.14s-2.28 0-3.71-1.14c-1.05-.81-1.84-.33-2.12.24-.5 1 .06 1.49 1.33 2.3 1.09.7 2.58.96 3.54 1.06l-.8.8-2.99 2.98a1.14 1.14 0 0 0 0 1.62l.14.16c.45.45 1.19.45 1.64 0L12 18.68l3 2.98c.45.45 1.18.45 1.64 0l.13-.16c.46-.43.46-1.16 0-1.62l-2.98-2.98-.79-.81a8.35 8.35 0 0 0 3.5-1.05c1.27-.81 1.83-1.3 1.33-2.3M12 4.57a2.5 2.5 0 1 1 0 4.98 2.5 2.5 0 1 1 0-4.98m0 7.55a5.05 5.05 0 1 0 .01-10.1 5.05 5.05 0 0 0-.01 10.1Z"
+    fill="#FFFFFF"/>
+</svg>
+          </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-backup">
+        <p class="text footer-contact-text">Обратная связь:<br>
+          <a class="footer-link" href="#">mail@htmlacademy.ru</a>
+        </p>
+        <p class="text footer-subscribe-text">Получайте лучшие предложения</p>
+        <form class="subscribe-form" method="post" action="#">
+          <label class="visually-hidden" for="subscribe-email">Форма подписки</label>
+          <input class="field footer-field" type="email" placeholder="email@example.com" id="subscribe-email"
+                 name="subscribe-email" required>
+          <button class="footer-form-button" type="submit" aria-label="Отправить">
+            <svg class="footer-cart-button" width="18" height="19" viewBox="0 0 18 19" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.65 2.19c-.16 0-.31.02-.46.05-.2-.44-.46-.84-.76-1.14C1.92.59 1.1.39 0 .39v1.8c.68 0 1.07.1 1.16.18.34.34.63 1.03.63 1.62l.01.12.88 6.18A2.8 2.8 0 0 0 0 12.94v.95a2.82 2.82 0 0 0 2.64 2.7h.2a2.7 2.7 0 0 0 5.08 0h2.1a2.7 2.7 0 0 0 5.23-.9 2.7 2.7 0 0 0-5.23-.9h-2.1a2.7 2.7 0 0 0-5.08 0H2.7c-.46-.03-.87-.44-.9-.96V13a.99.99 0 0 1 .94-.9h10.83l.13-.05a2.36 2.36 0 0 0 1.48-1.4l.1-.18.3-.61a1348.35 1348.35 0 0 0 2.29-4.6c.54-1.21-.56-2.14-1.68-2.16l-12.53-.9Zm9.6 8.1H4.58a.15.15 0 0 1-.11-.13L3.6 3.99l12.45.9-1.14 2.27v.02l-.94 1.86-.3.6-.12.24-.05.1a.56.56 0 0 1-.26.3Zm-.7 6.3a.9.9 0 1 0 0-1.8.9.9 0 0 0 0 1.8Zm-6.27-.9a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p class="text">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+      <p class="text footer-copyright-text">Разработано —
+        <a class="copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
